@@ -1,4 +1,4 @@
-import * as db from '../repositories/usuariosRepository.js'
+import * as db from '../repositories/usuariosRepo.js'
 
 export async function criarConta(dados) {
     if(!dados) throw new Error("Envie os dados corretamente")

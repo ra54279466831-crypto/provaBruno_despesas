@@ -1,4 +1,5 @@
 import { Router } from "express";
+import * as service from '../services/usuariosService.js'
 const endpoints = Router()
 
 endpoints.post('/usuarios', async (req, res) => {
